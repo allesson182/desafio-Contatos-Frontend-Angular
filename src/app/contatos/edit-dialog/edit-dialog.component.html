@@ -1,0 +1,17 @@
+
+<mat-form-field>
+  <mat-label>Nome</mat-label>
+  <input matInput  [(ngModel)]="this.editContact.nome" >
+</mat-form-field>
+
+<mat-form-field>
+  <mat-label>Email</mat-label>
+  <input matInput  [ngModel]="this.editContact.email" >
+</mat-form-field>
+
+<mat-form-field>
+  <mat-label>Telefone</mat-label>
+  <input matInput  [(ngModel)]="this.editContact.telefone">
+</mat-form-field>
+
+<button mat-raised-button color="primary" (click)="salvar()">Salvar</button>
