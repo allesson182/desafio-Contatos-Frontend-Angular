@@ -1,0 +1,38 @@
+<div class="container">
+  <div class="row align-items-start" >
+    <form class="col "  [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+
+      <div class="form" >
+        <mat-form-field appearance="fill" >
+          <mat-label>Nome</mat-label>
+          <input  matInput formControlName="nome">
+        </mat-form-field>
+      </div>
+
+      <div class="form">
+        <mat-form-field appearance="fill">
+          <mat-label>Email</mat-label>
+          <input matInput formControlName="email">
+        </mat-form-field>
+      </div>
+
+      <div class="form">
+        <mat-form-field appearance="fill">
+          <mat-label>Celular</mat-label>
+          <input matInput formControlName="celular">
+        </mat-form-field>
+      </div>
+
+      <div class="form">
+        <mat-form-field appearance="fill">
+          <mat-label>Telefone</mat-label>
+          <input matInput formControlName="telefone">
+        </mat-form-field>
+      </div>
+
+      <div class="form">
+        <button mat-raised-button color="primary" type="submit">Cadastrar</button>
+      </div>
+    </form>
+  </div>
+</div>

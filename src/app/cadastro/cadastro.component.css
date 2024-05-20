@@ -1,0 +1,13 @@
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.mat-form-field{
+  width:100% !important;
+}
+button{
+  width: 100%;
+}
